@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+}
+.navbar ul li{
+    float: left;
+   
+    
+}
+.navbar ul li a{
+    display:block;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    
+}
+.content1 {
+    margin-top: 100px;
+}
+.content1 table th td{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.content2 table th td{
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+.footer{
+    margin-top: 50px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li {
+        width: 100%;
+    }
+    .navbar ul li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 15px;
+    }
+    .navbar ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .content1, .content2, .content3, .content4, .content5 {
+        margin-top: 10px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    td, th {
+        display: block;
+        width: 100%;
+    }
+}

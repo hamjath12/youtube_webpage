@@ -1,0 +1,115 @@
+body{
+    background-image: url(../image/b1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+.registerheader{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.register1{
+    display: block;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: brown;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+.nav2 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+}
+.nav2 ul li{
+    float: left;
+   
+    
+}
+.nav2 ul li a{
+    display:block;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    
+    
+}
+.rgister1 button{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .register1 {
+        font-size: 30px;
+    }
+    .nav2 ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .register1 {
+        font-size: 24px;
+        margin-top: 50px;
+        width: 90%;
+    }
+    .nav2 ul {
+        flex-direction: column;
+    }
+    .nav2 ul li {
+        width: 100%;
+    }
+    .nav2 ul li a {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .register1 {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .nav2 ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav2 ul li {
+        width: 100%;
+    }
+    .nav2 ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .register1{
+        display: block;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+        font-size: 20px;
+        background-color: white;
+        color: brown;
+        margin-top: 30px;
+        
+    }
+}

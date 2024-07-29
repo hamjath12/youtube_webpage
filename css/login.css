@@ -1,0 +1,115 @@
+body{
+    background-image: url(../image/b1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+.headerlogin1{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+.login1{
+    display: block;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: white;
+    color: brown;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.nav1 ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+}
+.nav1 ul li{
+    float: left;
+   
+    
+}
+.nav1 ul li a{
+    display:block;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    
+    
+}
+.login1 button{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .login1 {
+        font-size: 30px;
+    }
+    .nav1 ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .login1 {
+        font-size: 24px;
+        margin-top: 50px;
+        width: 90%;
+    }
+    .nav1 ul {
+        flex-direction: column;
+    }
+    .nav1 ul li {
+        width: 100%;
+    }
+    .nav1 ul li a {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .login1 {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .nav1 ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav1 ul li {
+        width: 100%;
+    }
+    .nav1 ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .login1{
+        display: block;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 10px;
+        font-size: 40px;
+        background-color: white;
+        color: brown;
+        margin-top: 30px;
+        
+    }
+}
